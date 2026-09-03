@@ -1,2 +1,0 @@
-Software engineering involves designing developing and testing software.
-Data structures and algorithms help create efficient software systems.
