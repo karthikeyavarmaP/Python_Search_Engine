@@ -47,3 +47,36 @@ print("-" * 40)
 for word in sorted(inverted_index):
 
     print(word, "->", sorted(inverted_index[word]))
+
+# Search function
+def search_word(query):
+
+    query = query.lower()
+
+    if query in inverted_index:
+
+        return sorted(inverted_index[query])
+
+    else:
+
+        return []
+
+
+# User search
+print("\nSEARCH ENGINE")
+print("-" * 40)
+
+query = input("Enter a word to search: ")
+
+results = search_word(query)
+
+if results:
+
+    print("\nWord found in:")
+
+    for file_name in results:
+        print(file_name)
+
+else:
+
+    print("\nNo matching document found.")
