@@ -1,0 +1,2 @@
+Artificial intelligence enables computers to perform intelligent tasks.
+Machine learning algorithms learn patterns from data.
