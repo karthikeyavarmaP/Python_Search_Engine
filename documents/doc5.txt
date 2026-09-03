@@ -1,1 +1,2 @@
-
+Computer networks connect devices and allow information sharing.
+Network algorithms are important in modern distributed systems.
