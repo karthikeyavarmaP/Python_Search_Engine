@@ -1,0 +1,2 @@
+Database management systems store and organize large amounts of data.
+SQL is commonly used to retrieve information from databases.
